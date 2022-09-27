@@ -1,3 +1,23 @@
+// Test #1
+let arr = [2, 4, 1, 6, 8];
+
+let min = arr[0];
+let max = arr[0];
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] < min) {
+    min = arr[i];
+  }
+}
+console.log(`min = ${min}`);
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] > max) {
+    max = arr[i];
+  }
+}
+console.log(`max = ${max}`);
+
 // Test-3) question number 1============================>>>Q#3
 let arr = [1, 2, 3, 4, 7];
 let n = 4;
