@@ -1,3 +1,15 @@
+//Test-4 #Q4
+
+let X = "25";
+let Y = "23";
+
+function myFunc(X, Y) {
+  let num1 = Math.floor(X);
+  let num2 = Math.floor(Y);
+  console.log(num1 + num2);
+}
+myFunc(X, Y);
+
 // Test #1
 let arr = [2, 4, 1, 6, 8];
 
